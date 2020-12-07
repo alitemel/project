@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS vehicles;
+
+CREATE TABLE vehicles (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  brand VARCHAR(30) NOT NULL,
+  model VARCHAR(30) NOT NULL,
+  class_type VARCHAR(30) NOT NULL
+);
